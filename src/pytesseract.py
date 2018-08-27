@@ -5,10 +5,10 @@ Python-tesseract. For more information: https://github.com/madmaze/pytesseract
 '''
 
 try:
-    import Image
+	from PIL import Image
 except ImportError:
-    from PIL import Image
-
+    import Image
+    
 import os
 import sys
 import subprocess
